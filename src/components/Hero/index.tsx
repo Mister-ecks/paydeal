@@ -5,7 +5,7 @@ import "animate.css";
 import Image from "next/image";
 
 const Hero = () => {
-  const [ref, inView]  = useInView();
+  const {ref: mainTextRef, inView: mainTextInView}  = useInView();
   useEffect(()=>{
 
   }, [])
@@ -14,9 +14,9 @@ const Hero = () => {
       {/* Hero Section */}
       <section className="mx-auto mt-[3.781rem] md:mt-[5.914rem] px-10 md:px-[13.188rem]">
       
-        <div ref={ref}><h1
+        <div ref={mainTextRef}><h1
           
-          className={`font-space text-center leader-7 md:leading-[4.25rem] font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto ${inView ? "animate__animated animate__bounceIn" : ""}`}
+          className={`font-space text-center leader-7 md:leading-[4.25rem] font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto ${mainTextInView ? "animate__animated animate__bounceIn" : ""}`}
         >
           Receive and make cross border payments anywhere
         </h1></div>
