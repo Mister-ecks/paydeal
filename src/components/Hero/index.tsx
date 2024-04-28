@@ -16,7 +16,7 @@ const Hero = () => {
       
         <div ref={mainTextRef}><h1
           
-          className={`font-space text-center leader-7 md:leading-[4.25rem] font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto ${mainTextInView ? "animate__animated animate__bounceIn" : ""}`}
+          className={`font-space text-center leader-7 md:leading-[4.25rem]  font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto ${mainTextInView ? "animate__animated animate__bounceIn" : ""}`}
         >
           Receive and make cross border payments anywhere
         </h1></div>
