@@ -13,7 +13,7 @@ const Hero = () => {
       <section className="mx-auto mt-[3.781rem] md:mt-[5.914rem] px-10 md:px-[13.188rem]">
         {/* <div ref={mainTextRef}> */}
           <h1
-            className={`font-space text-center leader-7 md:leading-[4.25rem] animate__animated animate__bounceIn font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto 
+            className={`font-space text-center leader-7 md:leading-[4.25rem] animate__animated animate__fadeInUp font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto 
             }`}
           >
             Receive and make cross border payments anywhere
@@ -22,13 +22,13 @@ const Hero = () => {
               mainTextInView ? " " : "" */}
         {/* </div> */}
 
-        <p className="text-white mx-auto text-sm md:text-2xl text-center leading-6 mt-[1.313rem] md:mt-[2.063rem] md:leading-[2.625rem] animate__animated animate__bounceInUp animate__delay-1s">
+        <p className="text-white mx-auto text-sm md:text-2xl text-center leading-6 mt-[1.313rem] md:mt-[2.063rem] md:leading-[2.625rem] animate__animated animate__fadeInUp animate__delay-1s">
           We offer you a unique way to receive cross-boarder payments for
           services rendered on any freelancing platform. Create a unique payment
           link and enjoy the best with us
         </p>
 
-        <button className="py-[0.75rem] md:py-[0.938rem] mt-[2.563rem] md:px-[2.188rem] px-[1.888rem] flex justify-center mx-auto text-[#292D32] rounded-[0.625rem] text-base animate__animated animate__bounceInUp animate__delay-2s font-normal bg-[#F1F1FF] md:text-2xl md:font-medium">
+        <button className="py-[0.75rem] md:py-[0.938rem] mt-[2.563rem] md:px-[2.188rem] px-[1.888rem] flex justify-center mx-auto text-[#292D32] rounded-[0.625rem] text-base animate__animated animate__fadeInUp  animate__delay-2s font-normal bg-[#F1F1FF] md:text-2xl md:font-medium">
           Get Started
         </button>
       </section>
