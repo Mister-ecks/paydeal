@@ -33,20 +33,20 @@ const Hero = () => {
         </button>
       </section>
       {/* Hero Image */}
-      <div className="mt-[4.563rem] md:mt-[2.599rem] flex justify-center md:mx-16 mx-[0.539rem] pb-[10.363rem] md:pb-[1.349rem] ">
+      <div className="mt-[4.563rem] md:mt-[2.599rem] flex justify-center md:mx-16 mx-[0.539rem] pb-[10.363rem] md:pb-[1.349rem]  ">
         <Image
           src="/assets/images/map-mobile.svg"
           alt="map mobile image"
           width={390.74}
           height={189.19}
-          className="mx-auto block md:hidden"
+          className="mx-auto block md:hidden animate__animated animate__fadeInUp  animate__delay-3s"
         />
         <Image
           src="/assets/images/map-desktop.svg"
           alt="map desktop image"
           width={1313}
           height={569.84}
-          className="hidden md:block"
+          className="hidden md:block animate__animated animate__fadeInUp  animate__delay-3s"
         />
       </div>
     </div>
