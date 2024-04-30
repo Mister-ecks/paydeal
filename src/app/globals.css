@@ -9,13 +9,20 @@
     --animate-delay: 1s
 }
 
-.white-text {
-    --animate-delay: 5s
+.para-text {
+    --animate-delay: 0.85s
+}
+
+.button-animate {
+    --animate-delay: 1.5s
+}
+.image-animate {
+    --animate-delay: 1.85s
 }
 .blue-text{
     --animate-delay: 10s
 }
 
 .product {
-    --animate-duration: 4s
+    --animate-duration: 2.5s
 }

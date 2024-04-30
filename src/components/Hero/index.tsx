@@ -22,13 +22,13 @@ const Hero = () => {
               mainTextInView ? " " : "" */}
         {/* </div> */}
 
-        <p className="text-white mx-auto text-sm md:text-2xl text-center leading-6 mt-[1.313rem] md:mt-[2.063rem] md:leading-[2.625rem] animate__animated animate__fadeInUp animate__delay-1s">
+        <p className="text-white mx-auto text-sm md:text-2xl text-center leading-6 mt-[1.313rem] md:mt-[2.063rem] md:leading-[2.625rem] animate__animated animate__fadeInUp para-text">
           We offer you a unique way to receive cross-boarder payments for
           services rendered on any freelancing platform. Create a unique payment
           link and enjoy the best with us
         </p>
 
-        <button className="py-[0.75rem] md:py-[0.938rem] mt-[2.563rem] md:px-[2.188rem] px-[1.888rem] flex justify-center mx-auto text-[#292D32] rounded-[0.625rem] text-base animate__animated animate__fadeInUp  animate__delay-2s font-normal bg-[#F1F1FF] md:text-2xl md:font-medium">
+        <button className="py-[0.75rem] md:py-[0.938rem] mt-[2.563rem] md:px-[2.188rem] px-[1.888rem] flex justify-center mx-auto text-[#292D32] rounded-[0.625rem] text-base animate__animated animate__fadeInUp  button-animate font-normal bg-[#F1F1FF] md:text-2xl md:font-medium">
           Get Started
         </button>
       </section>
@@ -39,14 +39,14 @@ const Hero = () => {
           alt="map mobile image"
           width={390.74}
           height={189.19}
-          className="mx-auto block md:hidden animate__animated animate__fadeInUp  animate__delay-3s"
+          className="mx-auto block md:hidden animate__animated animate__fadeInUp  image-animate"
         />
         <Image
           src="/assets/images/map-desktop.svg"
           alt="map desktop image"
           width={1313}
           height={569.84}
-          className="hidden md:block animate__animated animate__fadeInUp  animate__delay-3s"
+          className="hidden md:block animate__animated animate__fadeInUp  image-animate"
         />
       </div>
     </div>

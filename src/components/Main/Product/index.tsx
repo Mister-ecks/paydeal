@@ -38,14 +38,14 @@ const Product = () => {
                 </div>
 
                 {/* Blue chat div */}
-                <div ref={chatCardRef} className={`bg-[#1C1C93] drop-shadow-lg rounded-[1.114rem] py-[0.56rem] md:py-[1rem] px-[0.957rem] md:px-[1.625rem] max-w-[12rem] ml-auto mt-[1.82rem] md:mt-[3.063rem] md:max-w-[20rem] ${chatCardInView ? "animate__animated animate__bounceInRight animate__slower" : ""}`}>
+                <div ref={chatCardRef} className={`bg-[#1C1C93] drop-shadow-lg rounded-[1.114rem] py-[0.56rem] md:py-[1rem] px-[0.957rem] md:px-[1.625rem] max-w-[12rem] ml-auto mt-[1.82rem] md:mt-[3.063rem] md:max-w-[20rem] ${chatCardInView ? "animate__animated animate__bounceInRight animate__slow" : ""}`}>
                   <p className="text-[0.52rem] text-center text-[white] font-normal md:text-sm">
                     Yes, it&apos;s available. Make payment below.
                   </p>
                 </div>
 
                 <div className="" ref={chatCardRef}>
-                    <Image src="/assets/images/24Kgold.svg" alt="Payment link" width={103.39} height={96.85} className={`ml-auto mt-[0.594rem] md:hidden ${chatCardInView ? "animate__animated animate__bounceInRight product" : ""}`}/>
+                    <Image src="/assets/images/24Kgold.svg" alt="Payment link" width={103.39} height={96.85} className={`ml-auto mt-[0.594rem] md:hidden ${chatCardInView ? "animate__animated animate__bounceInRight animate__slower" : ""}`}/>
                     <Image src="/assets/images/Desktop24Kgold.svg" alt="Desktop Payment link" width={230} height={200} className={`ml-auto px-0 mt-[1rem] md:block hidden ${chatCardInView ? "animate__animated animate__bounceInRight product" : ""}`}/>
                 </div>
               </div>
