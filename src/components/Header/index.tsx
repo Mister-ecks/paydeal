@@ -18,16 +18,13 @@ const Header = () => {
         <div className='w-full md:w-auto hidden md:block' id="nav-content">
           <ul className='md:flex text-white text-lg md:space-x-[3.188rem]'>
             <li>
-              <a href="">Solution</a>
+              <a href="">Home</a>
             </li>
             <li>
               <a href="">Product</a>
             </li>
             <li>
-              <a href="">Pricing</a>
-            </li>
-            <li>
-              <a href="">Support</a>
+              <a href="">Offers</a>
             </li>
           </ul>
         </div>

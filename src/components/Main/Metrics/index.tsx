@@ -4,7 +4,7 @@ import Figures from "../Figures";
 const Metrics = () => {
   return (
     <div>
-      <section className="mt-[5rem] ">
+      <section className="pt-[5rem] ">
         <h1 className="font-space text-[#292D32] font-medium text-2xl text-center md:text-5xl md:font-bold">
           High performance metrics
         </h1>
