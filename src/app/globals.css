@@ -5,6 +5,17 @@
 @tailwind utilities;
 
 
-:root {
-    --animate-delay: 0.5s
+.image-delay {
+    --animate-delay: 1s
+}
+
+.white-text {
+    --animate-delay: 5s
+}
+.blue-text{
+    --animate-delay: 10s
+}
+
+.product {
+    --animate-duration: 4s
 }
