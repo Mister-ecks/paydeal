@@ -19,7 +19,7 @@ const Product = () => {
 
                     {/* Blue chat div */}
                     <div className='bg-[#1C1C93] drop-shadow-lg rounded-[1.114rem] py-[0.56rem] px-[0.957rem] max-w-[12rem] ml-auto mt-[1.82rem]'>
-                    <p className='text-[0.52rem] text-center text-[white] font-normal'>Yes, it's available. Make payment below.</p>
+                    <p className='text-[0.52rem] text-center text-[white] font-normal'>Yes, it&apos;s available. Make payment below.</p>
                     </div>
                     </div>
                     
