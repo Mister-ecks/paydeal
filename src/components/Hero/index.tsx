@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="mx-auto mt-[3.781rem] md:mt-[5.914rem] px-10 md:px-[13.188rem]">
+      <section className="mx-auto mt-[3.781rem] md:mt-[5.914rem] z-10 px-10 md:px-[13.188rem]">
         {/* <div ref={mainTextRef}> */}
           <h1
             className={`font-space text-center leader-7 md:leading-[4.25rem] animate__animated animate__fadeInUp font-medium text-2xl text-[#ffffff] md:text-6xl md:font-bold mx-auto 
@@ -33,7 +33,7 @@ const Hero = () => {
         </button>
       </section>
       {/* Hero Image */}
-      <div className="mt-[4.563rem] md:mt-[2.599rem] flex justify-center md:mx-16 mx-[0.539rem] pb-[10.363rem] md:pb-[1.349rem]  ">
+      <div className="mt-[4.563rem] md:mt-[2.599rem] flex justify-center md:mx-16 mx-[0.539rem] pb-[10.363rem] z-20 md:pb-[1.349rem]  ">
         <Image
           src="/assets/images/map-mobile.svg"
           alt="map mobile image"
