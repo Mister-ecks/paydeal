@@ -12,7 +12,7 @@ const Product = () => {
     <div>
       <section className="mt-[5rem] mx-auto text-center md:mt-[10.75rem]">
         <h1 className="text-2xl md:text-5xl font-medium md:font-bold font-space text-[#292D32] mx-[1.406rem] md:mx-[9.6rem] md:leading-[3.438rem] leading-7">
-          We made cross-boarder payouts easy for you. Explore what makes us
+          We make cross-boarder payouts easy for you. Explore what makes us
           different
         </h1>
 

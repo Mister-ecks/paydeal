@@ -16,7 +16,7 @@ const Header = () => {
   ];
   return (
     <div>
-      <header className="flex w-full justify-between items-center pt-[1.688rem] pb-[1.219rem] pl-[1.821rem] pr-[1.375rem] flex-wrap border-b border-white/70 md:px-[8.019rem] md:pt-4 md:pb-[1.524rem]">
+      <header className="flex w-full justify-between items-center pt-[1.688rem] pb-[1.219rem] pl-[1.821rem]  pr-[1.375rem] flex-wrap border-b border-white/70 md:px-[8.019rem] md:pt-4 md:pb-[1.524rem]">
         <div className="flex-shrink-0">
           <Image
             src="/assets/logo/MobileLogo.svg"
