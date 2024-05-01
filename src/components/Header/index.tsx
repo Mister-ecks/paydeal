@@ -70,8 +70,8 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col space-y-[0.813rem] mt-[2.5rem]">
-              <button className="py-[0.75rem] text-sm rounded-md border border-[#F1F1FF] text-white hover:bg-white/90/">Sign in</button>
-              <button className="py-[0.75rem]  text-sm rounded-md bg-white text-[#292D32]">Get Started</button>
+              <button className="py-[0.75rem] text-base rounded-md border border-[#F1F1FF] text-white hover:bg-white/90/">Sign in</button>
+              <button className="py-[0.75rem]  text-base rounded-md bg-white text-[#292D32]">Get Started</button>
             </div>
             </div>
            
