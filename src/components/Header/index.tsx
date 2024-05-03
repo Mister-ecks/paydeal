@@ -44,7 +44,7 @@ const Header = () => {
             sideMenu && "translate-y-0"
           )}
         >
-          <section className="text-black bg-gradient-to-b from-[#892CDC] to-[#1C1C93] flex-col absolute right-0 top-0 h-screen py-[1.688rem] px-[1.625rem] w-full flex">
+          <section className="text-black bg-gradient-to-b from-[#892CDC] to-[#1C1C93] flex-col absolute right-0 top-0 h-screen py-[1.688rem] px-[1.625rem] w-full flex  ">
             <div className="flex justify-between items-center">
               <div>
               <Image src="/assets/logo/MobileLogo.svg" width={75.93} height={19} alt="mobile logo"/>
@@ -52,7 +52,7 @@ const Header = () => {
               
               <div>
               <IoIosCloseCircleOutline
-              onClick={() => setSideMenu(!sideMenu)}
+              onClick={() => setSideMenu(false)}
               className="mt-0 text-3xl cursor-pointer ml-auto text-[#DADAFF]"
             />
               </div>
