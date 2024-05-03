@@ -40,7 +40,7 @@ const Header = () => {
         {/* Sidebar Mobile Menu */}
         <div
           className={clsx(
-             `fixed h-screen w-full md:hidden  top-0 right-0 ${sideMenu ? "-translate-x-full" : "translate-x-full"} ease-in transition-all  z-50`,
+             `fixed h-screen w-full md:hidden top-0 right-0 ${sideMenu ? "-translate-x-full" : "translate-x-full"} ease-in transition-all  z-50`,
             sideMenu && "translate-x-0"
           )}
         >
