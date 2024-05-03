@@ -40,8 +40,8 @@ const Header = () => {
         {/* Sidebar Mobile Menu */}
         <div
           className={clsx(
-            " fixed h-full w-screen md:hidden lg:hidden top-0 right-0 -translate-y-full  transition-all z-50 ",
-            sideMenu && "translate-y-0"
+            " fixed h-full w-screen md:hidden lg:hidden top-0 right-0 -translate-x-full  transition-all z-50 ",
+            sideMenu && "translate-x-0"
           )}
         >
           <section className="text-black bg-gradient-to-b from-[#892CDC] to-[#1C1C93] flex-col absolute right-0 top-0 h-screen py-[1.688rem] px-[1.625rem] w-full flex  ">
