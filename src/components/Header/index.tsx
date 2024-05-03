@@ -35,12 +35,12 @@ const Header = () => {
         </div>
 
         <button className="block md:hidden">
-          <MdMenu className="text-white" size={24} onClick={() => setSideMenu(true)} />
+          <MdMenu className="text-white" size={24} onClick={() => setSideMenu(!sideMenu)} />
         </button>
         {/* Sidebar Mobile Menu */}
         <div
           className={clsx(
-            " fixed h-full w-screen md:hidden lg:hidden top-0 right-0 -translate-x-full  transition-all z-50 ",
+             `fixed h-full w-screen md:hidden lg:hidden top-0 left-0 right-0 ${sideMenu ? "-translate-x-full" : "translate-x-full"} ease-in transition-transform  z-50`,
             sideMenu && "translate-x-0"
           )}
         >
@@ -52,7 +52,7 @@ const Header = () => {
               
               <div>
               <IoIosCloseCircleOutline
-              onClick={() => setSideMenu(false)}
+              onClick={() => setSideMenu(!sideMenu)}
               className="mt-0 text-3xl cursor-pointer ml-auto text-[#DADAFF]"
             />
               </div>
