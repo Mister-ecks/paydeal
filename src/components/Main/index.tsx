@@ -4,7 +4,7 @@ import Product from './Product'
 
 const Main = () => {
   return (
-    <div className='bg-[#F1F1FF] md:bg-[white]'>
+    <div className='md:bg-[#F1F1FF] bg-[white]'>
         <Metrics/>
         <Product/>
     </div>
