@@ -14,7 +14,7 @@ const Metrics = () => {
         <p className="text-sm text-center text-[#292D32] mt-[0.625rem] font-normal md:font-medium md:text-2xl md:mt-[1.313rem]">Get the best cross-boarder payment from us</p>
 
         {/* Cards */}
-        <div className="mt-[2.5rem] md:mt-[3rem] flex items-center justify-center space-x-[8.063rem] mx-[1.5rem]">
+        <div className="mt-[2.5rem] md:mt-[3rem] flex items-center justify-center md:space-x-[8.063rem] space-x-[1.75rem]">
             <Figures heading="$150B" desc="Trading volume"/>
             <Figures  heading="500K+" desc="Successful transactions"/>
             <Figures  heading="98%" desc="Success rates"/>
