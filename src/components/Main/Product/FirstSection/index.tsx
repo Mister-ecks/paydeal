@@ -32,7 +32,7 @@ const FirstSection = () => {
                 </div>
 
                 {/* Blue chat div */}
-                <div ref={chatCardRef} className={`bg-[#1C1C93]  drop-shadow-lg rounded-[1.114rem] py-[0.56rem] md:py-[1rem] px-[0.957rem] md:px-[1.625rem] max-w-[12rem] ml-auto mt-[1.82rem] md:mt-[3.063rem] md:max-w-[20rem] ${chatCardInView ? "animate__animated animate__bounceInRight animate__slow" : ""}`}>
+                <div ref={chatCardRef} className={`bg-[#1C1C93]  drop-shadow-lg rounded-[1.114rem] py-[0.56rem] md:py-[1rem] px-[0.957rem] md:px-[1.625rem] max-w-[12rem] ml-auto mt-[29px] md:mt-[45.008px] md:max-w-[20rem] ${chatCardInView ? "animate__animated animate__bounceInRight animate__slow" : ""}`}>
                   <p className="text-[0.52rem] text-center text-[white] font-normal md:text-sm">
                     Yes, it&apos;s available. Make payment below.
                   </p>

@@ -42,7 +42,7 @@ const ThirdSection = () => {
                <div className="flex items-center">
                {/* currency */}
                 <div className="flex">
-                  <Image src="/assets/images/US.svg" width={21.03} height={15.02} alt="Us country flag" className="md:w-[35px] md:h-[25px]"/>
+                  <Image src="/assets/images/US.svg" width={21.03} height={15.02} alt="Us country flag"/>
                   <p className="text-[14.42px] leading-[25.2px] text-[#292D32]/50 font-medium ml-[11.42px] md:text-[16px]">USD</p>
                 </div>
                   <div>
