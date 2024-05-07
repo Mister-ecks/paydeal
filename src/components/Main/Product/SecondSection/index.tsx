@@ -4,6 +4,11 @@ import { useInView } from "react-intersection-observer";
 import "animate.css"
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowDownLong } from "react-icons/fa6";
+
+
+
+
 const SecondSection = () => {
     const { ref: paymentRef, inView: paymentInView } = useInView({triggerOnce: true});
     const { ref: chatCardRef, inView: chatCardInView } = useInView({triggerOnce: true});
@@ -23,7 +28,56 @@ const SecondSection = () => {
             {/* White chat background */}
             <div ref={chatCardRef} className="bg-white w-[20.276rem] h-[14.594rem] rounded-[0.557rem] md:w-[30.125rem] md:h-[24.563rem] mx-auto my-auto ">
               {/* Chat wrapper */}
-              <div className="pl-[1.5rem] pt-[1.226rem] pr-[1.228rem] ">
+              <div className="pl-[0.995rem] pt-[0.737rem] pr-[1.228rem] pb-[0.884rem]  md:pl-[1.75rem] md:pt-[0.75rem] md:pb-[1.438rem] md:pr-[2.062rem] ">
+                {/* Invoice Details */}
+                <div className="flex justify-between items-start">
+                <div className="text-left">
+                <p className="text-[0.589rem] font-normal">Invoice from Mark</p>
+                <h1 className="text-[0.884rem] font-medium font-space">$9,394.00</h1>
+                <p className="text-[0.589rem] font-normal ">Due March, 2023</p>
+               </div>
+
+               <div>
+                <Image src='/assets/images/CompanyLogo.svg' alt="Company logo"
+                width={73.01}
+                height={24.84}
+                />
+               </div>
+                </div>
+               
+                <div className="border-b-[#292D32]/50 border mt-[0.862rem] "></div>
+                {/* Invoice Details */}
+                <div className="mt-[9.43px] flex-col justify-between">
+                  <div className="flex items-center">
+                  <FaArrowDownLong className="text-[9.43px] font-light  text-[#1c1c93] t"/>
+                  <p className="text-[9.43px] text-[#292D32] pl-[5.31px]">Download invoice</p>
+                  </div>
+                  <div className="mt-[7.08px] flex-col space-y-[12.97px]">
+                  <div className="mt-[7.08px] flex-col space-y-[12.97px]">
+                        {/* First Detail */}
+                        <div className="flex justify-between">
+                          <p className="text-[9.43px] text-[#292D32] font-normal">From:</p>
+                          <p className="text-[9.43px] text-[#292D32] font-normal">Mark</p>
+                        </div>
+                        {/* Second Detail */}
+                        <div className="flex justify-between">
+                          <p className="text-[9.43px] text-[#292D32] font-normal">To:</p>
+                          <p className="text-[9.43px] text-[#292D32] font-normal">Khalid</p>
+                        </div>
+                        {/* Third Detail */}
+                        <div className="flex justify-between">
+                          <p className="text-[9.43px] text-[#292D32] font-normal">Notes:</p>
+                          <p className="text-[9.43px] text-[#292D32] font-normal">I gave you a discount</p>
+                        </div>
+                  </div>
+
+                  </div>
+
+                  <div className="mt-[22.41px]">
+                    <button className="text-[9.43px] pt-[5.9px] pb-[5.05px] w-full rounded-[5.9px] bg-[#1C1C93] text-white font-bold">Pay for this invoice</button>
+                  </div>
+                  
+                </div>
                
               </div>
             </div>
