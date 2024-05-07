@@ -21,7 +21,7 @@ const FirstSection = () => {
             {/* card */}
           <div className={`bg-[#1C1C93] rounded-[0.557rem]  w-[22.356rem] py-[1.003rem] px-[1.04rem]  md:px-[1.75rem] md:py-[1.656rem] ${chatCardInView ? "animate__animated animate__fadeInRight image-delay" : ""} md:w-[34.625rem]`}>
             {/* White chat background */}
-            <div ref={chatCardRef} className="bg-white w-[20.276rem] h-[14.594rem] rounded-[0.557rem] md:w-[30.125rem] md:h-[24.563rem] mx-auto my-auto ">
+            <div ref={chatCardRef} className="bg-white w-[20.276rem] h-[14.594rem] rounded-[0.557rem] md:w-[30.125rem] md:h-[23.5rem] mx-auto my-auto ">
               {/* Chat wrapper */}
               <div className="pl-[1.5rem] pt-[1.226rem] pr-[1.228rem] ">
                 {/*White Chat div */}
