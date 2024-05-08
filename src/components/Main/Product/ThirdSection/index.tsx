@@ -18,7 +18,7 @@ const ThirdSection = () => {
         <div className="mt-[2.188rem] md:mt-[11.625rem] overflow-hidden flex flex-col-reverse justify-center items-center md:flex-row md:justify-between md:items-center md:gap-x-[8.125rem]">
             {/* First Text */}
             <div ref={paymentRef} className={`mt-[1.375rem] mx-[1.438rem] md:mx-0  md:mt-0  ${paymentInView ? "animate__animated animate__fadeInLeft" : ""}`}>
-                <h1 className={`text-left font-space font-bold  text-base md:text-5xl`}>Swap between currencies</h1>
+                <h1 className={`text-left font-space font-bold text-[#292D32] text-base md:text-5xl`}>Swap between currencies</h1>
                 <p className="text-left text-[#292D32] font-normal mt-[0.938rem] text-sm md:text-2xl leading-4 md:mt-[3.875rem]">You are able to store money using our financial solution in a safe wallet. Swap currencies and withdraw money to your local bank easily.</p>
                 <a href=""><button className="flex text-sm md:text-xl mt-[0.938rem] md:mt-[3.875rem] text-[#1C1C93] items-center font-bold ">Start now <FaArrowRight className="font-thin ml-[0.813rem]"/></button></a>
             </div>
@@ -28,7 +28,7 @@ const ThirdSection = () => {
             {/* White chat background */}
             <div ref={chatCardRef} className="bg-white w-[20.276rem]  rounded-[0.557rem] md:w-[30.125rem]  mx-auto my-auto ">
               {/* Chat wrapper */}
-              <div className="pl-[19.83px] pt-[27.04px] pr-[35.45px]">
+              <div className="pl-[19.83px] pt-[27.04px] pr-[35.45px] md:pl-[33px]">
                   <div className="flex-col flex">
                     <div>
                         {/* Swap Currencies */}

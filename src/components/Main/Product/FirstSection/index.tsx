@@ -13,7 +13,7 @@ const FirstSection = () => {
         <div className="mt-[2.188rem] md:mt-[11.625rem] overflow-hidden flex flex-col-reverse justify-center items-center md:flex-row md:justify-between md:items-center md:gap-x-[8.125rem]">
             {/* First Text */}
             <div ref={paymentRef} className={`mt-[1.375rem] mx-[1.438rem] md:mx-0  md:mt-0  ${paymentInView ? "animate__animated animate__fadeInLeft" : ""}`}>
-                <h1 className={`text-left font-space font-bold  text-base md:text-5xl`}>Create a payment link anywhere</h1>
+                <h1 className={`text-left font-space font-bold text-[#292D32] text-base md:text-5xl`}>Create a payment link anywhere</h1>
                 <p className="text-left text-[#292D32] font-normal mt-[0.938rem] text-sm md:text-2xl leading-4 md:mt-[3.875rem]">Use Payment Links to sell online without a website. Create a full payment page in just a few clicks and share the link with your customers.</p>
                 <a href=""><button className="flex text-sm md:text-xl mt-[0.938rem] md:mt-[3.875rem] text-[#1C1C93] items-center font-bold ">Start now <FaArrowRight className="font-thin ml-[0.813rem]"/></button></a>
             </div>

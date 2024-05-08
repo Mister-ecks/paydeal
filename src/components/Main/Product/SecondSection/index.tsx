@@ -18,7 +18,7 @@ const SecondSection = () => {
         <div className="mt-[2.188rem] md:mt-[11.625rem] overflow-hidden flex flex-col-reverse justify-center items-center md:flex-row-reverse md:justify-center md:items-center md:gap-x-[8.125rem]">
             {/* First Text */}
             <div ref={paymentRef} className={`mt-[1.375rem] mx-[1.438rem] md:mx-0  md:mt-0  ${paymentInView ? "animate__animated animate__fadeInRight" : ""}`}>
-                <h1 className={`text-left font-space font-bold  text-base md:text-5xl`}>Invoice made for speed and scale</h1>
+                <h1 className={`text-left font-space font-bold text-[#292D32] text-base md:text-5xl`}>Invoice made for speed and scale</h1>
                 <p className="text-left text-[#292D32] font-normal mt-[0.938rem] text-sm md:text-2xl leading-4 md:mt-[3.875rem]">A platform for international invoicing software created to save you time and speed up payment. Create an invoice quickly, then email it to your clients.</p>
                 <a href=""><button className="flex text-sm md:text-xl mt-[0.938rem] md:mt-[3.875rem] text-[#1C1C93] items-center font-bold ">Start now <FaArrowRight className="font-thin ml-[0.813rem]"/></button></a>
             </div>
