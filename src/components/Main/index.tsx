@@ -9,6 +9,7 @@ const Main = () => {
         <Metrics/>
         <Product/>
         <Offer/>
+        
     </div>
   )
 }

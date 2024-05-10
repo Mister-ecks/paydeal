@@ -16,8 +16,10 @@ const config: Config = {
     },
     fontFamily : {
       space : ['Space Grotesk', 'sans-serif']
-    }
+    },
+   
   },
+ 
   plugins: [],
 };
 export default config;

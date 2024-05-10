@@ -26,7 +26,7 @@ const Offer = () => {
                 height={16}
                 alt="paydeal check mark"
               />
-              <p className="text-sm md:text-2xl text-[#292D32] text-left leading-4">
+              <p className="text-sm md:text-2xl font-medium text-[#292D32] text-left leading-4">
                 Create a USD, GBP, EUR account to receive payments for your
                 service.
               </p>
@@ -69,7 +69,7 @@ const Offer = () => {
             </div>
 
             <div className="">
-              <button className="px-[18px] py-[10px] md:py-[15px] md:px-[30px] mt-[28px] md:mt-[50px] text-sm font-bold rounded-[5px] text-white md:text-2xl bg-[#1C1C93]">
+              <button className="px-[18px] py-[10px] md:py-[15px] md:px-[30px] mt-[28px] md:mt-[40px] text-sm font-bold rounded-[5px] text-white md:text-2xl bg-[#1C1C93]">
                 Open an account
               </button>
             </div>
