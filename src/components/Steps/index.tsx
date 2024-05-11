@@ -9,7 +9,7 @@ const Steps = () => {
         {/* Steps */}
         <div className="">
         <section className="mt-[46px] md:mt-[207px]">
-          <h1 className="font-space font-medium  md:mx-0 text-center mx-[40px] text-2xl md:text-5xl text-[#292D32] md:text-left md:ml-[22px]">
+          <h1 className="font-space font-medium  md:mx-0 text-center mx-[40px] text-2xl md:text-5xl text-[#292D32] md:font-medium md:text-left md:ml-[22px]">
             Get started in just a few simple steps
           </h1>{" "}
          

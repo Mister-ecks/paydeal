@@ -19,7 +19,7 @@ const Offer = () => {
           <div className="mt-[13px] md:mt-[32px] flex flex-col space-y-[13px] md:space-y-[15px]">
             {/* Points */}
             {/* Point 1 */}
-            <div className="flex items-start md:items-start space-x-[13px]">
+            <div className="flex items-start md:items-center space-x-[13px]">
               <Image
                 src="/assets/images/Checkmark.svg"
                 width={16}
@@ -39,7 +39,7 @@ const Offer = () => {
                 height={16}
                 alt="paydeal check mark"
               />
-              <p className="text-sm md:text-2xl text-[#292D32] text-left ">
+              <p className="text-sm md:text-2xl font-medium text-[#292D32] text-left ">
                 Send an invoice
               </p>
             </div>
@@ -51,7 +51,7 @@ const Offer = () => {
                 height={16}
                 alt="paydeal check mark"
               />
-              <p className="text-sm md:text-2xl text-[#292D32] text-left ">
+              <p className="text-sm md:text-2xl font-medium text-[#292D32] text-left ">
                 Debit card for easy spending
               </p>
             </div>
@@ -63,7 +63,7 @@ const Offer = () => {
                 height={16}
                 alt="paydeal check mark"
               />
-              <p className="text-sm md:text-2xl text-[#292D32] text-left ">
+              <p className="text-sm md:text-2xl font-medium text-[#292D32] text-left ">
                 Withdraw to your local bank easily
               </p>
             </div>
