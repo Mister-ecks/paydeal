@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Main from "@/components/Main"
 import Steps from "@/components/Steps";
 import Action from "@/components/Action";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="md:bg-[#F1F1FF]">
         <Steps/>
         <Action/>
+        <Footer/>
         </div>
     </div>
   );
